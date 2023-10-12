@@ -1,9 +1,15 @@
-package it.fi.itismeucci;
+package com.example;
 
-public class App {
-    public static void main( String[] args ) throws Exception
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
     {
-        Server server = new Server();
-        server.avvioServer();
+        Client cliente = new Client();
+        cliente.connetti();
+        cliente.comunica();
     }
 }
